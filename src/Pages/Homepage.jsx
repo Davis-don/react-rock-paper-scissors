@@ -7,7 +7,7 @@ import './homepage.css'
 function Headersection() {
     return(
         <div className="ovearall-header-section">
-            <h1>Header here</h1>
+            <h1 style={{textAlign:'center'}}>&copy; 2024 group1 computer  <span>0</span> <span>0</span> Player</h1>
         </div>
     )
  }
@@ -19,7 +19,10 @@ function Headersection() {
 function Computersection(){
     return(
         <div className="computer-overall-section">
-            <h1>Computer section here</h1>
+            <h1>Computer</h1>
+            <div className="computer-icon-play">
+                <h1 className='comp-icon'>&#9995;</h1>
+            </div>
         </div>
     )
 }

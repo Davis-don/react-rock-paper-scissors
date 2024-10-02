@@ -4,3 +4,30 @@ background-color:var(--color-primary);
 height: 100vh;
 margin: auto;
 }
+
+/* Start of header css */
+.ovearall-header-section{
+padding: 2rem;
+}
+/* End of header section */
+
+
+/* Start of computer styling */
+.computer-overall-section{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.computer-icon-play{
+/* width: 12rem;
+height: 15rem; */
+border: 2px dashed black;
+display: flex;
+justify-content:center;
+align-items: center;
+}
+.comp-icon{
+font-size: 10rem;
+}
+/* End of computer styling */

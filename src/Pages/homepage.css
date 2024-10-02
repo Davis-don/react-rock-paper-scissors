@@ -31,3 +31,51 @@ align-items: center;
 font-size: 10rem;
 }
 /* End of computer styling */
+
+
+
+/* start of result css */
+.result-overall-section{
+background-color:rgb(85, 41, 18);
+margin-top: 2rem;
+padding: 1rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.resulter{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+/* end of result css */
+
+/* Start of player section */
+.player-overall-section{
+
+}
+.player-display-screen{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.player-screen{
+
+border: 2px dashed black;
+}
+.player-icon{
+font-size: 10rem;
+}
+.player-clickable{
+display: flex;
+flex-direction: row;
+gap: 1rem;
+justify-content: center;
+align-items: center;
+margin-top: 3rem;
+}
+.click-btn{
+    
+}
+/* End of player section */

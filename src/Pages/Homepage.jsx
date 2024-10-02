@@ -1,5 +1,6 @@
 import React from 'react'
 import './homepage.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 
@@ -32,7 +33,7 @@ function Computersection(){
 function Resultsection(){
     return(
         <div className="result-overall-section">
-            <h1>Result section here</h1>
+            <h1 className='resulter'>currently draw</h1>
         </div>
     )
 }
@@ -42,7 +43,23 @@ function Resultsection(){
 function Playersection(){
     return(
         <div className="player-overall-section">
-            <h1>Player section here</h1>
+            <div className="player-display-screen">
+            <h1 className='player-title'>Player</h1>
+            <div className="player-screen ">
+            <h1 className='player-icon'>&#9995;</h1>
+            </div>
+            </div>
+            <div className="player-clickable">
+              <div className="rock click-btn card">
+              <h1 className='player-icon'>&#9995;</h1>
+              </div>
+              <div className="paper click-btn card">
+              <h1 className='player-icon'>&#9995;</h1>
+              </div>
+              <div className="scissors click-btn card">
+              <h1 className='player-icon'>&#9995;</h1>
+              </div>
+            </div>
         </div>
     )
 }

@@ -51,13 +51,13 @@ function Playersection(){
             </div>
             <div className="player-clickable">
               <div className="rock click-btn card">
-              <h1 className='player-icon'>&#9995;</h1>
+              <h1 className='player-icon'>&#9994;</h1>
               </div>
               <div className="paper click-btn card">
               <h1 className='player-icon'>&#9995;</h1>
               </div>
               <div className="scissors click-btn card">
-              <h1 className='player-icon'>&#9995;</h1>
+              <h1 className='player-icon'> &#9996;</h1>
               </div>
             </div>
         </div>
